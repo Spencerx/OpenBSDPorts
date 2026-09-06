@@ -1,7 +1,7 @@
 Index: chrome/browser/BUILD.gn
 --- chrome/browser/BUILD.gn.orig
 +++ chrome/browser/BUILD.gn
-@@ -4448,10 +4448,6 @@ source_set("browser") {
+@@ -4456,10 +4456,6 @@ source_set("browser") {
        # ... get modularized.
        "//chrome/browser/ui/extensions:impl",
      ]
@@ -12,7 +12,7 @@ Index: chrome/browser/BUILD.gn
    }
  
    # TODO(https://crbug.com/356905053): Add more dependencies here and merge this
-@@ -4583,6 +4579,10 @@ source_set("browser") {
+@@ -4591,6 +4587,10 @@ source_set("browser") {
        "//chrome/browser/chrome_for_testing",
        "//chrome/browser/chrome_for_testing:browser",
      ]
